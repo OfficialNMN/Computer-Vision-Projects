@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img=cv.imread(r'C:\Users\NAMANJEET SINGH\PycharmProjects\OpenCVProject\pics\park.jpg')
+img=cv.imread('park.jpg')
 cv.imshow('park',img)
 
 grey=cv.cvtColor(img,cv.COLOR_BGR2GRAY)
@@ -23,8 +23,4 @@ canny=cv.Canny(grey,150,175)
 cv.imshow('Canny',canny)
 
 cv.waitKey(0)
-
-
-
-
 
