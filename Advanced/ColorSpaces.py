@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 
 # OpenCV reads image in BGR format
 
-img = cv.imread(r'C:\Users\NAMANJEET SINGH\PycharmProjects\OpenCVProject\pics\cats.jpg')
-cv.imshow('Park', img)
+img = cv.imread('cats.jpg')
+cv.imshow('cats', img)
 
 #visualizing in matplotlib
 plt.imshow(img)
