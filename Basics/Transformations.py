@@ -41,31 +41,3 @@ cv.imshow('Flip', flip)
 
 cv.waitKey(0)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
