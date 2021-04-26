@@ -3,7 +3,7 @@ import cv2 as cv
 # Thresholding means binarization of an image i.e if a particular pic=xel is less than
 # the threshold value then black otherwise white
 
-img = cv.imread(r'C:\Users\NAMANJEET SINGH\PycharmProjects\OpenCVProject\pics\cats.jpg')
+img = cv.imread(r'pics\cats.jpg')
 cv.imshow('Cats', img)
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
