@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img=cv.imread(r'C:\Users\NAMANJEET SINGH\PycharmProjects\OpenCVProject\pics\group.jpg')
+img=cv.imread(r'pics\group.jpg')
 
 grey=cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 
